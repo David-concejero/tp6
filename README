@@ -1,0 +1,31 @@
+
+# Proyecto Tienda con JavaFX
+
+## En que consiste
+
+Consiste en registrar las compras de los clientes de una tienda que tiene sus propios productos. Los registros de las compras tendrán persistencia de datos y los almacenarán en una base de datos o en un fichero de texto. Todo este proceso se mostrará con una interfaz gráfica realizada con javaFX.
+
+ 	La persistencia en txt y bd estará localizada en el directorio 'datos'.
+ 	Y los catálogos que puedes cargar como usuario esta localizado en el directorio 'catalogos'.
+
+## Funcionalidades
+
+	- Realiza comprar
+	- Carga diferentes catálogos de productos
+	- Registra clientes y podemos ver los clientes de la tienda. Filtrando un cliente en concreto o todos
+	- Registra las comprar y podemos ver las compras de la tienda. Filtrando una compra o todas
+	- Salir del programa
+
+## Realizar una compra
+
+Para ello, usaremos el botón "Comprar". Después rellenamos los datos de los clientes. Para continuar, hacemos clic en el botón "Siguiente". También tenemos la opción de resetear los datos si nos hemos equivocado o de volver atrás. A continuación, tenemos un desplegable con los productos cargados del catálogo, seleccionamos producto, añadimos cantidad y para guardar la compra debemos hacer clic en el botón "Confirmar compra". Cuando hayamos terminado de confirmar todas las compras, finalizamos la compra con el boton "Finalizar compra".
+
+## Como ejecutar
+
+javac -cp jars/*:. Tienda.java
+
+java -cp jars/*:. Tienda
+
+## Realizado por
+	- David Concejero 
+	- Francisco Bocanegra
